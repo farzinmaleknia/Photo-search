@@ -6,7 +6,7 @@ import { keyWords } from "../actions";
 
 const Header = (props) => {
   const [term, setTerm] = useState("");
-  const [delayedTerm, setDelayedTerm] = useState("");
+  const [delayedTerm, setDelayedTerm] = useState("hello world");
 
   // Input onChange logic
   useEffect(() => {
