@@ -1,0 +1,41 @@
+.simple-text {
+  color: black;
+}
+
+.simple-text:hover {
+  color: gray;
+}
+
+.active {
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+@media screen and (min-width: 768px) {
+  #sidebar-nav {
+    height: 100%;
+    top: 0;
+    width: 200px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  #navbar-brand2 {
+    margin-top: 23px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-nav .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+
+  .sidebar-nav .navbar li {
+    float: none;
+  }
+
+  .sidebar-nav #navbar-brand2 {
+    width: 100%;
+    display: block;
+  }
+}

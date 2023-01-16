@@ -1,0 +1,10 @@
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 590px) {
+  #search-form {
+    flex-flow: nowrap;
+  }
+}
