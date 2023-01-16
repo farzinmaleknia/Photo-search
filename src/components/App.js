@@ -70,7 +70,6 @@ const App = ({ keyWords, photoList, collectionList, collectionID }) => {
 };
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return { keyWords: state.keyWords, collectionID: state.collectionID };
 };
 
